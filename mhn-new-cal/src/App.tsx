@@ -7,7 +7,7 @@ import SavedBuilds from './components/SavedBuilds';
 import OcrModal from './components/OcrModal';
 
 // 請把下面的網址換成你的 Cloudflare Worker 網址
-const CLOUDFLARE_WORKER_URL = 'mhncal.ragnaroktactics111.workers.dev';
+const CLOUDFLARE_WORKER_URL = 'mhngt111.ragnaroktactics111.workers.dev';
 
 export default function App() {
   const [appData, setAppData] = useState<{skills: any[], constants: any} | null>(null);
