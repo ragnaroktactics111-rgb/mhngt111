@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mhngt111",
+  "compatibility_date": "2026-05-11",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "mhn-new-cal"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
